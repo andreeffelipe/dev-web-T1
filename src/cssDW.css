@@ -1,0 +1,153 @@
+.inicio{
+	width:100%;
+	float:left;
+	padding:3px 3%; background-color: #194dadd9;
+    font-size: 1.2rem;
+    color: white;
+    margin-left: 0;
+    font-weight: 500;
+    transition: 0.3 ease;
+	display: flex;
+		
+}
+
+
+nav a:hover,
+nav a.active{
+	
+    color: rgb(141, 168, 219);
+    border-bottom: 3px solid rgb(255, 115, 0);
+}
+
+a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+.foto{
+	text-align: center;
+}
+
+body{
+	width:80%;
+	background: url(fundo.jpeg) center;
+ 	font-family: sans-serif;
+	line-height:1.75;
+	color: white;
+
+
+}
+
+main {
+	background: #181818d6;
+	padding: 20px;
+	margin-top: 20px;
+	margin-left: 30px;
+	border-radius: solid white 2px;
+	
+}
+
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+p{
+	font-size: 1.25em;
+	font-style: normal;
+	font-family: Arial,verdana, sans-serif;
+	font-weight: 100;
+}
+
+.footer{
+	background-color: #00000099;
+	padding: 20px 0;
+	border-top: none;;
+}
+
+.footer-col{
+	width: 25%;
+	padding: 0 10px;
+	font-size: 85%;
+ }
+
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #6e1432;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+
+}
+
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+
+	
+}
+
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+
+}
+
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(124, 124, 124, 0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+
+}
+
+.footer-col .social-links a:hover{
+	color: #000000;
+	background-color: #ffffff;
+
+}
+
+@media(max-width: 767px){
+.footer-col {
+    width: 20%;
+    padding: 0 30px;
+}
+
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+
